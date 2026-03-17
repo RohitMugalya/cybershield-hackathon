@@ -1,0 +1,12 @@
+Table: faces
+Schema: CREATE TABLE faces (id INTEGER PRIMARY KEY AUTOINCREMENT, hash TEXT, time TEXT, gender TEXT, marks TEXT, clothing TEXT, image BLOB, location TEXT)
+--------------------------------------------------
+Table: sqlite_sequence
+Schema: CREATE TABLE sqlite_sequence(name,seq)
+--------------------------------------------------
+Table: plates
+Schema: CREATE TABLE plates (id INTEGER PRIMARY KEY AUTOINCREMENT, plate TEXT, conf REAL, time TEXT, owner TEXT, model TEXT, color TEXT)
+--------------------------------------------------
+Table: users
+Schema: CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT UNIQUE, name TEXT, role TEXT, hash_pw TEXT)
+--------------------------------------------------
