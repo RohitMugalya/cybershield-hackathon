@@ -1,0 +1,13 @@
+bcrypt
+PyJWT
+pymongo
+yt-dlp
+opencv-python-headless
+pydeck
+plotly
+pandas
+numpy
+streamlit
+requests
+ultralytics
+easyocr
