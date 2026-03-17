@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, filters, ContextTypes
 import os
 
-TOKEN = "8595863538:AAEckjPx-JheiHPndvlUrGSA8Q9VfgTxZfY"
+TOKEN = "Your_Token"
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
